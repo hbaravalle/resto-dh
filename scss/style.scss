@@ -137,22 +137,23 @@ div[class^="__header-"] {
 
   .__body-events {
     margin-top: -25px;
+    padding-bottom: 75px;
 
     .__card {
       background-color: #fff;
       text-align:center;
+      margin-bottom: 32px;
 
       .__inner-img {
         height:250px;
         position: relative;
-        margin-bottom: 20px;
         overflow:hidden;
       }
 
       .__inner-text {
         position: relative;
         background-color: #fff;
-        padding: 10px 20px;
+        padding: 25px 20px 20px 20px;
 
         h4 {
           font-size: 1.5em;
@@ -170,6 +171,24 @@ div[class^="__header-"] {
       }
     }
   }
+}
+
+.__wrapper-contact {
+  background-color: #000;
+  padding: 50px 0;
+  color: #fff;
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+
+.__wrapper-copyright {
+  padding: 10px 0;
+  background-color: #262626;
+  color: $_gray;
 }
 
 @media (max-width: 575px) {
